@@ -130,7 +130,7 @@ Este es un gran salto, la WinAPI es muy extensa, hay miles de funciones, y desde
       - [CreateProcess](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa)
       - [CreateThread](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createthread)
       - [CreateFileMapping](https://learn.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-createfilemappinga)
-      - [CreateMutex](https://learn.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-createmutexa), esta es GOD por que puedes crear una exclusion mutua para que el malware se ejecute en una sola instancia en un momento dado
+      - [CreateMutex](https://learn.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-createmutexa), esta es GOD por que puedes crear una exclusion mutua para que el malware se ejecute en una sola instancia en un momento dado, usada múltiples veces por droppers y loaders
       - [DeviceIoControl](https://learn.microsoft.com/en-us/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol)
 
     - Keyloggers
@@ -202,8 +202,6 @@ Este es un gran salto, la WinAPI es muy extensa, hay miles de funciones, y desde
     - [Chetan Nayak: Welcome to the Dark Side: Part 4](https://niiconsulting.com/checkmate/2018/03/malware-development-welcome-to-the-dark-side-part-4/)
 
 ### :white_circle: Desarrollo de malware poco mas avanzado
-
-En este punto deberias de saber moverte un poco mejor programando con la WinAPI, ya sabes hacer reversing y leer ensamblador un poco mejor de tus propios malware
 
 Como practica, puedes implementar las mismas tecnias mostradas anteriormente pero ahora usando la NTAPI
 
