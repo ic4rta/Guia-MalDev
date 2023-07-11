@@ -185,7 +185,7 @@ Como practica, puedes implementar las mismas tecnias mostradas anteriormente per
 
 #### :skull: :skull: :skull: Desarollo de malware :skull: :skull: :skull:
 
-Aqui si ya esta potente la cosa, en este punto ya todo es un mas dificil (demasido)
+Aqui si ya esta potente la cosa, en este punto ya todo es aun mas dificil (demasiado)
 
 - **Programacion y explotacion de drivers**
     
