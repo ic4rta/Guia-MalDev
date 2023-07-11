@@ -110,6 +110,32 @@ Este es un gran salto, la WinAPI es muy extensa, hay miles de funciones, y desde
     - [Introduccion a la WinAPI](https://tryhackme.com/room/windowsapi)
     - [WinAPI process management](https://learn.microsoft.com/pdf?url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fwindows%2Fwin32%2Fprocthread%2Ftoc.json), es un PDF de Windows con todas las funciones de procesos y sub procesos, son mas de 1100 paginas
 
+- **Funciones recomedadas (no son todas)**
+    - Persistencia
+      - [RegCreateKeyEx](https://learn.microsoft.com/en-us/windows/win32/api/winreg/nf-winreg-regcreatekeyexa)
+      - [RegOpenKeyEx](https://learn.microsoft.com/en-us/windows/win32/api/winreg/nf-winreg-regopenkeyexa)
+      - [RegSetValueEx](https://learn.microsoft.com/en-us/windows/win32/api/winreg/nf-winreg-regsetvalueexa)
+
+    - Cifrado (para ransomware)
+      - [WinCrypt header](https://learn.microsoft.com/en-us/windows/win32/api/wincrypt/)
+      - [CryptAcquireContext](https://learn.microsoft.com/en-us/windows/win32/api/wincrypt/nf-wincrypt-cryptacquirecontexta)
+      - [CryptGenKey](https://learn.microsoft.com/en-us/windows/win32/api/wincrypt/nf-wincrypt-cryptgenkey)
+      - [CryptDeriveKey](https://learn.microsoft.com/en-us/windows/win32/api/wincrypt/nf-wincrypt-cryptderivekey)
+
+    - Manejo de procesos y subprocesos
+      - [VirtualAlloc](https://learn.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc)
+      - [ReadProcessMemory](https://learn.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-readprocessmemory)
+      - [CreateRemoteThread](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createremotethread)
+      - [ResumeThread](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-resumethread)
+      - [CreateProcess](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa)
+      - [CreateThread](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createthread)
+      - [CreateFileMapping](https://learn.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-createfilemappinga)
+      - [CreateMutex](https://learn.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-createmutexa), esta es GOD por que puedes crear una exclusion mutua para que el malware se ejecute en una sola instancia en un momento dado
+      - [DeviceIoControl](https://learn.microsoft.com/en-us/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol)
+
+    - Keyloggers
+      - [GetAsyncKeyState](https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getasynckeystate)
+      - [SetWindowsHookEx](https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setwindowshookexa)
 
 ### :red_circle: Desarrollo de malware
 
@@ -167,6 +193,13 @@ Este es un gran salto, la WinAPI es muy extensa, hay miles de funciones, y desde
     - [UPX](https://upx.github.io/)
     - [The Enigma Protector](https://enigmaprotector.com/)
     - [c3rb3ru5d3d53c: Obfuscation introduction](https://www.youtube.com/watch?v=6aik01mTiDc)
+ 
+ - **RATs y C2**
+    - [Chetan Nayak: Welcome to the Dark Side: Part 1](https://niiconsulting.com/checkmate/2018/02/malware-development-welcome-dark-side-part-1/)
+    - [Chetan Nayak: Welcome to the Dark Side: Part 2](https://niiconsulting.com/checkmate/2018/02/malware-development-welcome-dark-side-part-2-1/)
+    - [Chetan Nayak: Welcome to the Dark Side: Part 2-2](https://niiconsulting.com/checkmate/2018/03/malware-development-welcome-dark-side-part-2-2/)
+    - [Chetan Nayak: Welcome to the Dark Side: Part 3](https://niiconsulting.com/checkmate/2018/03/malware-development-welcome-dark-side-part-3/)
+    - [Chetan Nayak: Welcome to the Dark Side: Part 4](https://niiconsulting.com/checkmate/2018/03/malware-development-welcome-to-the-dark-side-part-4/)
 
 ### :white_circle: Desarrollo de malware poco mas avanzado
 
@@ -180,7 +213,13 @@ Como practica, puedes implementar las mismas tecnias mostradas anteriormente per
     - [Sysinternals Freeware](https://web.archive.org/web/20121224002314/http://netcode.cz/img/83/nativeapi.html)
     - [Inside Native Applications - MSDN](https://learn.microsoft.com/en-us/sysinternals/resources/inside-native-applications)
     - [crow: NTAPI Injection](https://www.crow.rip/crows-nest/malware-development/process-injection/ntapi-injection)
-
+      
+- **Kernel Shellcodes**
+    - [uf0: Windows Kernel Shellcodes - a compendium](https://www.matteomalvica.com/blog/2019/07/06/windows-kernel-shellcode/)
+    - [ImproSec: Windows Kernel Shellcodes Pt1](https://improsec.com/tech-blog/windows-kernel-shellcode-on-windows-10-part-1)
+    - [ImproSec: Windows Kernel Shellcodes Pt2](https://improsec.com/tech-blog/windows-kernel-shellcode-on-windows-10-part-2)
+    - [ImproSec: Windows Kernel Shellcodes Pt3](https://improsec.com/tech-blog/windows-kernel-shellcode-on-windows-10-part-3)
+    - [ImproSec: Windows Kernel Shellcodes Pt4](https://improsec.com/tech-blog/windows-kernel-shellcode-on-windows-10-part-4-there-is-no-code)
 
 ### :yellow_circle: Desarrollo de malware mas avanzado
 
