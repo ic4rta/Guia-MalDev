@@ -196,7 +196,7 @@ Aqui si ya esta potente la cosa, en este punto ya todo es aun mas dificil (demas
     - Bring Your Own Vulnerable Driver (no encontre tutoriales, pero basicamente ya debes de saber programar drivers, y encima con una vulnerabilidad intencionada, ej)
         - [Stack Overflow](https://blog.xpnsec.com/hevd-stack-overflow/)
         - [Pool Overflow](https://connormcgarr.github.io/swimming-in-the-kernel-pool-part-1/)
-        - [User After Free](https://infosecwriteups.com/use-after-free-13544be5a921)
+        - [Use After Free](https://infosecwriteups.com/use-after-free-13544be5a921)
         - [Type Confusion](https://hackingportal.github.io/Type_Confusion/type_confusion.html)
         - [Integer Overflow/Underflow](https://ic4rta.github.io/integer-overflow/)
         - [Null Pointer Dereference](https://cwe.mitre.org/data/definitions/476.html)
