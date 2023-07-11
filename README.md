@@ -272,25 +272,32 @@ Aqui si ya esta potente la cosa, en este punto ya todo es aun mas dificil (demas
         - [SMM Backdoor](https://github.com/Cr4sh/SmmBackdoor)
         - [PEI Backdoor](https://github.com/Cr4sh/PeiBackdoor)
     
-    - Inline hooking
+    - Inline Hooking
         - [MalwareTech](https://www.malwaretech.com/2015/01/inline-hooking-for-programmers-part-1.html) 
         - [SecureHat](https://blog.securehat.co.uk/process-injection/manually-implementing-inline-function-hooking)
         - [Ruben Revuelta](https://rrevueltab.medium.com/user-mode-rootkits-i-inline-hooking-66339e9332cb)
         - [InmuniWeb](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjCiebDoIWAAxWgKEQIHbTyDhAQFnoECBYQAQ&url=https%3A%2F%2Fwww.immuniweb.com%2Fpublication%2Finline_hooking_in_windows.pdf&usg=AOvVaw39quiH9EVG15C5XmAdxLlA&opi=89978449)
     
-    - SSDT hooking
+    - SSDT Hooking
         - [Dejan Lukan](https://resources.infosecinstitute.com/topic/hooking-system-service-dispatch-table-ssdt/)
         - [Adlice](https://www.adlice.com/kernelmode-rootkits-part-1-ssdt-hooks/)
         - [m0uk4](https://m0uk4.gitbook.io/notebooks/mouka/windowsinternal/ssdt-hook)
         - [Samsclass](https://samsclass.info/126/proj/pDC16rk.htm)
 
-    - IAT hooking
+    - IAT Hooking
         - [Ruben Revuelta](https://rrevueltab.medium.com/user-mode-rootkits-ii-iat-hooking-dll-injection-134457eb14b0)
         - [Adlice](https://www.adlice.com/userland-rootkits-part-1-iat-hooks/)
         - [Pentest Blog](https://pentest.blog/offensive-iat-hooking/)
         - [Guide Hacking](https://guidedhacking.com/threads/how-to-hook-import-address-table-iat-hooking.13555/)
         - [BlackHat](https://www.blackhat.com/presentations/bh-europe-06/bh-eu-06-Silberman-Butler.pdf)
         - [ReLearEx](https://relearex.wordpress.com/2017/12/26/hooking-series-part-i-import-address-table-hooking/)
+     
+    - IRP y DKOM Hooking
+        - [Adlice](https://www.adlice.com/kernelmode-rootkits-part-2-irp-hooks/)
+        - [Qiyana: codigo de exemplo](https://www.unknowncheats.me/forum/c-and-c-/403581-kernel-irp-hook.html)
+        - [BlackHat](https://www.blackhat.com/presentations/win-usa-04/bh-win-04-butler.pdf)
+        - [NixHacker: DKOM Manipulation](https://nixhacker.com/understanding-windows-dkom-direct-kernel-object-manipulation-attacks-eprocess/)
+        - [INFILTRATE: Hiding and Hooking with Windows Extension Hosts](https://vimeo.com/335166152)
 
  [Sourcefire](https://www.youtube.com/playlist?list=PLgBE3-yjLAKXExnugTBonsPkLafL87k5m), "Minicurso" de desarrollo de rootkits
 
