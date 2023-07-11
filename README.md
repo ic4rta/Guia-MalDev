@@ -204,7 +204,35 @@ Aqui si ya esta potente la cosa, en este punto ya todo es aun mas dificil (demas
         - [RS2 Bitmap Necromancy](https://fuzzysecurity.com/tutorials/expDev/22.html)
 
 - **Creacion de rootkits**
-
+  
+    - Seguridad y Explotacion del UEFI
+        - [BlackHat: Breaking Firmware Trust From Pre-EFI: Exploiting Early Boot Phases](https://www.blackhat.com/us-22/briefings/schedule/index.html#breaking-firmware-trust-from-pre-efi-exploiting-early-boot-phases-27229)
+        - [Binarly: Post sobre seguridad del UEFI](https://www.binarly.io/posts/index.html)
+        - [BlackHat: Breaking Secure Bootloaders](https://www.youtube.com/watch?v=XvGcQgx9Jg8)
+        - [BlackHat: Taking DMA Attacks to the Next Level](https://www.youtube.com/watch?v=QeIPcA8zsHk)
+        - [BlackHat: Analyzing UEFI BIOSes from Attacker & Defender Viewpoints](https://www.youtube.com/watch?v=CGBpil0S5NI&t=1s)
+        - [BlackHat: Attacking Intel BIOS](https://www.blackhat.com/presentations/bh-usa-09/WOJTCZUK/BHUSA09-Wojtczuk-AtkIntelBios-SLIDES.pdf)
+        - [BlackHat: Introducing Ring -3 Rootkits](https://invisiblethingslab.com/resources/bh09usa/Ring%20-3%20Rootkits.pdf)
+        - [CanSecWest: Attacks on UEFI Security](https://web.archive.org/web/20150908083304/https://cansecwest.com/slides/2015/AttacksOnUEFI_Rafal.pptx)
+        - [DEFCON: Hacking the Extensible Firmware Interface](https://www.youtube.com/watch?v=g-n42Q-Pxsg)
+        - [ATT&CK: Vectores de ataque de un bootkit](https://attack.mitre.org/techniques/T1542/003/)
+     
+    - Analisis de Bootkits
+        - [BlackLotus](https://www.welivesecurity.com/2023/03/01/blacklotus-uefi-bootkit-myth-confirmed/)
+        - [CosmicStrand](https://securelist.com/cosmicstrand-uefi-firmware-rootkit/106973/)
+        - [MoonBounce](https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/)
+        - [ESPecter](https://www.welivesecurity.com/2021/10/05/uefi-threats-moving-esp-introducing-especter-bootkit/)
+        - [FinSpy](https://securelist.com/finspy-unseen-findings/104322/)
+        - [TrickBot](https://eclypsium.com/wp-content/uploads/TrickBot-Now-Offers-TrickBoot-Persist-Brick-Profit.pdf)
+        - [MosaicRegressor](https://securelist.com/mosaicregressor/98849/)
+        - [LoJax](https://www.welivesecurity.com/2018/09/27/lojax-first-uefi-rootkit-found-wild-courtesy-sednit-group/)
+     
+    - Codigos fuente
+        - [umap](https://github.com/btbd/umap)
+        - [UEFI-Bootkit](https://github.com/ajkhoury/UEFI-Bootkit)
+        - [SMM Backdoor](https://github.com/Cr4sh/SmmBackdoor)
+        - [PEI Backdoor](https://github.com/Cr4sh/PeiBackdoor)
+    
     - Inline hooking
         - [MalwareTech](https://www.malwaretech.com/2015/01/inline-hooking-for-programmers-part-1.html) 
         - [SecureHat](https://blog.securehat.co.uk/process-injection/manually-implementing-inline-function-hooking)
