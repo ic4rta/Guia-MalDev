@@ -1,6 +1,6 @@
 ## Guia Desarrollo de Malware
 
-Esta es una pequeña guia de como empezar a desarrollar malware donde te pondre en orden cronologico los conocimientos que son necesarios desde mi punto de vista, los puntos que tome en cuenta para hacer esta guia fueron:
+Esta es una pequeña guia de como empezar a desarrollar malware donde te pondre recursos en orden cronologico de los conocimientos que son necesarios desde mi punto de vista, los puntos que tome en cuenta para hacer esta guia fueron:
 
 - Hacer todo manual
 - Programar todo desde cero en C/C++ y ensamblador
