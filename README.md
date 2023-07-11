@@ -18,7 +18,7 @@ Esta es una pequeña guia de como empezar a desarrollar malware donde te pondre 
 
 ## MalDev
 
-#### Fundamentos
+### Fundamentos
 
 - **Fundamentos de windows**
     - [THM Pt1](https://tryhackme.com/room/windowsfundamentals1xbx)
@@ -36,6 +36,7 @@ Esta es una pequeña guia de como empezar a desarrollar malware donde te pondre 
     - [THM: Introduccion al networking](https://tryhackme.com/room/introtonetworking)
     - [HTB: Introduccion al networking](https://academy.hackthebox.com/module/details/34)
     - [Curso por un indio tryhard](https://www.youtube.com/watch?v=IPvYjXCsTg8)
+    - [droix3d: Modelo TCP-IP](https://droix3d.github.io/posts/TCP-IP/)
 
 - **Introduccion a PowerShell**
     - [Pequeña introduccion por Microsoft](https://learn.microsoft.com/en-us/training/modules/introduction-to-powershell/)
@@ -55,7 +56,7 @@ Esto es debatible, por que este libro aparte de darte conceptos basicos, te ense
 
 Si solo quieres una pequeña introduccion sobre como funciona una compu, el CPU, la administracion de memoria, los procesos, etc, puedes leer hasta la parte **2.10** o hasta la pagina **102**
 
-#### Introduccion a la programacion en C/C++
+### introduccion a la programacion en C/C++
 
 - **Logica de programacion**:
 
@@ -70,7 +71,7 @@ Si solo quieres una pequeña introduccion sobre como funciona una compu, el CPU,
 
 A este punto ya podrias continuar con la lectura de ```Operating System Concepts``` por que ya tendras las bases de la programacion en C/C++, y desde mi punto de vista no seria mala idea empezar con programacion concurrente y para interactuar con el sistema operativo
 
-#### Introduccion a ensamblador
+### Introduccion a ensamblador
 
 - **Ensamblador x64 y x86 bits**
 
@@ -84,11 +85,11 @@ A este punto ya podrias continuar con la lectura de ```Operating System Concepts
 
     - [0xInfection](https://0xinfection.github.io/reversing/), Infravalorado pero muy bueno, orientado de la explotacion binaria y reversing, full practico desde GNU debugger
 
-#### Shellcodes
+### Shellcodes
 
 En este punto ya estoy considerando que ya le sabes al bisnes de todo lo anterior
 
-- **Desarollo de shellcodes**
+- **Desarrollo de shellcodes**
 
     - [Fundacion Sadosky](https://fundacion-sadosky.github.io/guia-escritura-exploits/buffer-overflow/2-shellcode.html), Considero que es de los mejores recursos en español para empezar a crear shellcodes
 
@@ -101,7 +102,7 @@ En este punto ya estoy considerando que ya le sabes al bisnes de todo lo anterio
     - [c4rta](https://ic4rta.github.io//maldev-shellcodes/), Soy yo, te enseño a crear dos shellcodes, una para imprimir algo y otra para /bin/sh
 
 
-#### Introduccion a la WinAPI o Win32 API
+### Introduccion a la WinAPI o Win32 API
 
 Este es un gran salto, la WinAPI es muy extensa, hay miles de funciones, y desde ahora te digo que no hay ninguna funcion exclusiva para el desarrollo de malware, **NINGUNA**, asi que lo que pasa en este punto es que debes de ver como puedes usar esas funciones para desarrollar malware, es decir, aplicarlas para otro fin del que fueron creadas, regularmente las funciones que se usan son las que tiene que ver con el manejo de procesos, subprocesos, y todo lo relacionado al VAS (Virtual Adress Space)
 
@@ -111,7 +112,7 @@ Este es un gran salto, la WinAPI es muy extensa, hay miles de funciones, y desde
     - [WinAPI process management](https://learn.microsoft.com/pdf?url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fwindows%2Fwin32%2Fprocthread%2Ftoc.json), es un PDF de Windows con todas las funciones de procesos y sub procesos, son mas de 1100 paginas
 
 
-#### Desarollo de malware
+### Desarrollo de malware
 
 - **Introduccion a las inyecciones de proceso/codigo**
 
@@ -140,20 +141,20 @@ Este es un gran salto, la WinAPI es muy extensa, hay miles de funciones, y desde
 
 - **AntiDBG (evadir depuradores)**
 
-    - [Anti-Debug Checkpoint](https://anti-debug.checkpoint.com/techniques/debug-flags.html)
-    - [Papi Noteworthy](https://github.com/LordNoteworthy/al-khaser/tree/master/al-khaser/AntiDebug)
+    - [Anti-Debug Checkpoint: AntiDBG techniques](https://anti-debug.checkpoint.com/techniques/debug-flags.html)
+    - [Papi Noteworthy: AntiDBG techniques](https://github.com/LordNoteworthy/al-khaser/tree/master/al-khaser/AntiDebug)
 
 - **AntiVM y Anti emulacion (evadir maquinas virtuales)**
 
-    - [Cynet](https://www.cynet.com/attack-techniques-hands-on/malware-anti-vm-techniques/)
-    - [InfoSec Institute](https://resources.infosecinstitute.com/topic/anti-debugging-and-anti-vm-techniques-and-anti-emulation/)
-    - [Papi Noteworthy](https://github.com/LordNoteworthy/al-khaser/tree/master/al-khaser/AntiVM)
-    - [DeepInstinct](https://www.deepinstinct.com/blog/malware-evasion-techniques-part-2-anti-vm-blog)
+    - [Cynet: AntiVM techniques](https://www.cynet.com/attack-techniques-hands-on/malware-anti-vm-techniques/)
+    - [InfoSec Institute: AntiVM techniques](https://resources.infosecinstitute.com/topic/anti-debugging-and-anti-vm-techniques-and-anti-emulation/)
+    - [Papi Noteworthy: AntiVM techniques](https://github.com/LordNoteworthy/al-khaser/tree/master/al-khaser/AntiVM)
+    - [DeepInstinct: AntiVM techniques](https://www.deepinstinct.com/blog/malware-evasion-techniques-part-2-anti-vm-blog)
 
 - **Anti Disassembly**
 
-    - [Preet Kamal](https://1malware1.medium.com/anti-disassembly-techniques-e012338f2ae0)
-    - [Unknown](http://staff.ustc.edu.cn/~bjhua/courses/security/2014/readings/anti-disas.pdf)
+    - [Preet Kamal: Anti disas techniques](https://1malware1.medium.com/anti-disassembly-techniques-e012338f2ae0)
+    - [Unknown: Anti disas techniques](http://staff.ustc.edu.cn/~bjhua/courses/security/2014/readings/anti-disas.pdf)
 
 -  **Timming Attacks/Ataques basados en temporizadores**
 
@@ -161,14 +162,14 @@ Este es un gran salto, la WinAPI es muy extensa, hay miles de funciones, y desde
 
 - **Ofuscacion y Packers**
 
-    - [IredTeam](https://www.ired.team/offensive-security/code-injection-process-injection/writing-custom-shellcode-encoders-and-decoders)
-    - [Lsec](https://medium.com/@lsecqt/encrypting-shellcode-with-xor-offensive-coding-in-c-5a42cb978d6e)
-    - [malbot - Malware News](https://malware.news/t/reverse-engineering-crypto-functions-aes/55413)
+    - [IredTeam: Shellcode Encoders and Decoders](https://www.ired.team/offensive-security/code-injection-process-injection/writing-custom-shellcode-encoders-and-decoders)
+    - [Lsec: Shellcode with XOR](https://medium.com/@lsecqt/encrypting-shellcode-with-xor-offensive-coding-in-c-5a42cb978d6e)
+    - [malbot - Malware News: AES functions](https://malware.news/t/reverse-engineering-crypto-functions-aes/55413)
     - [UPX](https://upx.github.io/)
     - [The Enigma Protector](https://enigmaprotector.com/)
-    - [c3rb3ru5d3d53c](https://www.youtube.com/watch?v=6aik01mTiDc)
+    - [c3rb3ru5d3d53c: Obfuscation introduction](https://www.youtube.com/watch?v=6aik01mTiDc)
 
-#### Desarollo de malware mas dificil
+### Desarrollo de malware poco mas avanzado
 
 En este punto deberias de saber moverte un poco mejor programando con la WinAPI, ya sabes hacer reversing y leer ensamblador un poco mejor de tus propios malware
 
@@ -179,20 +180,20 @@ Como practica, puedes implementar las mismas tecnias mostradas anteriormente per
     - [ACCU Conference](https://www.youtube.com/watch?v=a0KozcRhotM)
     - [Sysinternals Freeware](https://web.archive.org/web/20121224002314/http://netcode.cz/img/83/nativeapi.html)
     - [Inside Native Applications - MSDN](https://learn.microsoft.com/en-us/sysinternals/resources/inside-native-applications)
-    - [crow](https://www.crow.rip/crows-nest/malware-development/process-injection/ntapi-injection)
+    - [crow: NTAPI Injection](https://www.crow.rip/crows-nest/malware-development/process-injection/ntapi-injection)
 
 
-#### :skull: :skull: :skull: Desarollo de malware :skull: :skull: :skull:
+### Desarrollo de malware mas avanzado
 
 Aqui si ya esta potente la cosa, en este punto ya todo es aun mas dificil (demasiado)
 
 - **Programacion y explotacion de drivers**
     
-    - [MSDN](https://learn.microsoft.com/en-us/windows-hardware/drivers/gettingstarted/)
+    - [MSDN: Drivers Introduction](https://learn.microsoft.com/en-us/windows-hardware/drivers/gettingstarted/)
     - [OSR](https://www.osr.com/getting-started-writing-windows-drivers/)
-    - [Piotr Bania - Explotacion de drivers](https://www.piotrbania.com/all/articles/ewdd.pdf)
-    - [Off By One Security](https://www.youtube.com/watch?v=nauAlHXrkIk)
-    - [HackSys](https://github.com/hacksysteam/HackSysExtremeVulnerableDriver)
+    - [Piotr Bania: Explotacion de drivers](https://www.piotrbania.com/all/articles/ewdd.pdf)
+    - [Off By One Security: Modern Windows Kernel Exploitation](https://www.youtube.com/watch?v=nauAlHXrkIk)
+    - [HackSys Driver](https://github.com/hacksysteam/HackSysExtremeVulnerableDriver)
     - Bring Your Own Vulnerable Driver (no encontre tutoriales, pero basicamente ya debes de saber programar drivers, y encima con una vulnerabilidad intencionada, ej)
         - [Stack Overflow](https://blog.xpnsec.com/hevd-stack-overflow/)
         - [Pool Overflow](https://connormcgarr.github.io/swimming-in-the-kernel-pool-part-1/)
@@ -228,6 +229,10 @@ Aqui si ya esta potente la cosa, en este punto ya todo es aun mas dificil (demas
  [Sourcefire](https://www.youtube.com/playlist?list=PLgBE3-yjLAKXExnugTBonsPkLafL87k5m), "Minicurso" de desarrollo de rootkits
 
 [RootKits and Bootkits](https://dl.ebooksworld.ir/motoman/No.Starch.Press.Rootkits.and.Bootkits.www.EBooksWorld.ir.pdf), es muy buen libro, ya que te enseñan tenicas que han usados rootkit para evadir AV/EDRs, las formas que han usados bootkits para sobreescribir la UEFI, almacenarse en el chipset de la BIOS y escarlar de ring 3 a ring 0, etc
+
+### Usuarios que han contribuido
+<a href="https://github.com/ic4rta" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/ic4rta" width="60" height="60"/></a>
+<a href="https://github.com/droix3d" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/109915316?v=4" width="60" height="60"/></a>
 
 ## Recursos adicionales
 
