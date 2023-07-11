@@ -22,7 +22,7 @@ Esta es una pequeña guia de como empezar a desarrollar malware donde te pondre 
     - [THM Pt1](https://tryhackme.com/room/windowsfundamentals1xbx)
     - [THM Pt2](https://tryhackme.com/room/windowsfundamentals2x0x) 
     - [THM Pt3](https://tryhackme.com/room/windowsfundamentals3xzx) 
-    - [HTB Windows Fundamentals](https://academy.hackthebox.com/module/details/49) (por no quieres usar THM por sus funas acerca de su seguridad)
+    - [HTB Windows Fundamentals](https://academy.hackthebox.com/module/details/49) (por si no quieres usar THM por sus funas acerca de su seguridad)
 
 - **Fundamentos de Linux**
     - [HTB Linux Fundamentals](https://academy.hackthebox.com/module/details/18) 
@@ -126,7 +126,7 @@ Este es un gran salto, la WinAPI es muy extensa, hay miles de funciones, y desde
     - Shellcode via CreatePoolWait
     - Reflective DLL injection (Papea antivirus)
     - Asynchronous Procedure Call Injection
-    - Process Hollowing (esta en GOD)
+    - Process Hollowing (esta es GOD)
     - Shellcode via Inter-Process Mapped-View
     - Ghostwriting (esta es GOD tambien)
     - Atom Bombing (esto papea antivirus)
