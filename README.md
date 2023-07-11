@@ -127,7 +127,6 @@ Este es un gran salto, la WinAPI es muy extensa, hay miles de funciones, y desde
     - Local Thread Hijacking
     - Shellcode via CreatePoolWait
     - Reflective DLL injection (Papea antivirus)
-    - Asynchronous Procedure Call Injection
     - Process Hollowing (esta es GOD)
     - Shellcode via Inter-Process Mapped-View
     - Ghostwriting (esta es GOD tambien)
