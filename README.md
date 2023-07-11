@@ -17,7 +17,7 @@ Esta es una pequeña guia de como empezar a desarrollar malware donde te pondre 
 
 ## MalDev
 
-### Fundamentos
+### :brown_circle: Fundamentos
 
 - **Fundamentos de windows**
     - [THM Pt1](https://tryhackme.com/room/windowsfundamentals1xbx)
@@ -55,7 +55,7 @@ Esto es debatible, por que este libro aparte de darte conceptos basicos, te ense
 
 Si solo quieres una pequeña introduccion sobre como funciona una compu, el CPU, la administracion de memoria, los procesos, etc, puedes leer hasta la parte **2.10** o hasta la pagina **102**
 
-### introduccion a la programacion en C/C++
+### :green_circle: Introduccion a la programacion en C/C++
 
 - **Logica de programacion**:
 
@@ -70,7 +70,7 @@ Si solo quieres una pequeña introduccion sobre como funciona una compu, el CPU,
 
 A este punto ya podrias continuar con la lectura de ```Operating System Concepts``` por que ya tendras las bases de la programacion en C/C++, y desde mi punto de vista no seria mala idea empezar con programacion concurrente y para interactuar con el sistema operativo
 
-### Introduccion a ensamblador
+### :large_blue_circle: Introduccion a ensamblador
 
 - **Ensamblador x64 y x86 bits**
 
@@ -84,7 +84,7 @@ A este punto ya podrias continuar con la lectura de ```Operating System Concepts
 
     - [0xInfection](https://0xinfection.github.io/reversing/), Infravalorado pero muy bueno, orientado de la explotacion binaria y reversing, full practico desde GNU debugger
 
-### Shellcodes
+### :orange_circle: Shellcodes
 
 En este punto ya estoy considerando que ya le sabes al bisnes de todo lo anterior
 
@@ -101,7 +101,7 @@ En este punto ya estoy considerando que ya le sabes al bisnes de todo lo anterio
     - [c4rta](https://ic4rta.github.io//maldev-shellcodes/), Soy yo, te enseño a crear dos shellcodes, una para imprimir algo y otra para /bin/sh
 
 
-### Introduccion a la WinAPI o Win32 API
+### :purple_circle: Introduccion a la WinAPI o Win32 API
 
 Este es un gran salto, la WinAPI es muy extensa, hay miles de funciones, y desde ahora te digo que no hay ninguna funcion exclusiva para el desarrollo de malware, **NINGUNA**, asi que lo que pasa en este punto es que debes de ver como puedes usar esas funciones para desarrollar malware, es decir, aplicarlas para otro fin del que fueron creadas, regularmente las funciones que se usan son las que tiene que ver con el manejo de procesos, subprocesos, y todo lo relacionado al VAS (Virtual Adress Space)
 
@@ -111,7 +111,7 @@ Este es un gran salto, la WinAPI es muy extensa, hay miles de funciones, y desde
     - [WinAPI process management](https://learn.microsoft.com/pdf?url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fwindows%2Fwin32%2Fprocthread%2Ftoc.json), es un PDF de Windows con todas las funciones de procesos y sub procesos, son mas de 1100 paginas
 
 
-### Desarrollo de malware
+### :red_circle: Desarrollo de malware
 
 - **Introduccion a las inyecciones de proceso/codigo**
 
@@ -168,7 +168,7 @@ Este es un gran salto, la WinAPI es muy extensa, hay miles de funciones, y desde
     - [The Enigma Protector](https://enigmaprotector.com/)
     - [c3rb3ru5d3d53c: Obfuscation introduction](https://www.youtube.com/watch?v=6aik01mTiDc)
 
-### Desarrollo de malware poco mas avanzado
+### :white_circle: Desarrollo de malware poco mas avanzado
 
 En este punto deberias de saber moverte un poco mejor programando con la WinAPI, ya sabes hacer reversing y leer ensamblador un poco mejor de tus propios malware
 
@@ -182,7 +182,7 @@ Como practica, puedes implementar las mismas tecnias mostradas anteriormente per
     - [crow: NTAPI Injection](https://www.crow.rip/crows-nest/malware-development/process-injection/ntapi-injection)
 
 
-### Desarrollo de malware mas avanzado
+### :yellow_circle: Desarrollo de malware mas avanzado
 
 Aqui si ya esta potente la cosa, en este punto ya todo es aun mas dificil (demasiado)
 
