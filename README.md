@@ -246,3 +246,9 @@ Aqui si ya esta potente la cosa, en este punto ya todo es un mas dificil (demasi
 - [https://github.com/rootkit-io/awesome-malware-development](https://github.com/rootkit-io/awesome-malware-development)
 - [https://github.com/kymb0/Malware_learns](https://github.com/kymb0/Malware_learns)
 
+#### Cursos de pago (estan gratis en internet)
+
+- [https://www.pentesteracademy.com/course?id=3](https://www.pentesteracademy.com/course?id=3)
+- [https://www.pentesteracademy.com/course?id=50](https://www.pentesteracademy.com/course?id=50)
+- [https://institute.sektor7.net/view/courses/red-team-operator-malware-development-essentials/](https://institute.sektor7.net/view/courses/red-team-operator-malware-development-essentials/)
+- [https://institute.sektor7.net/rto-maldev-intermediate](https://institute.sektor7.net/rto-maldev-intermediate)
