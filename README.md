@@ -195,14 +195,14 @@ Aqui si ya esta potente la cosa, en este punto ya todo es un mas dificil (demasi
     - [Off By One Security](https://www.youtube.com/watch?v=nauAlHXrkIk)
     - [HackSys](https://github.com/hacksysteam/HackSysExtremeVulnerableDriver)
     - Bring Your Own Vulnerable Driver (no encontre tutoriales, pero basicamente ya debes de saber programar drivers, y encima con una vulnerabilidad intencionada, ej)
-        - Stack Overflow
-        - Pool Overflow
-        - User After Free
-        - Type Confusion
-        - Integer Overflow
-        - Null Pointer Dereference
-        - Insecure Kernel Resource Access
-        - RS2 Bitmap Necromancy
+        - [Stack Overflow](https://blog.xpnsec.com/hevd-stack-overflow/)
+        - [Pool Overflow](https://connormcgarr.github.io/swimming-in-the-kernel-pool-part-1/)
+        - [User After Free](https://infosecwriteups.com/use-after-free-13544be5a921)
+        - [Type Confusion](https://hackingportal.github.io/Type_Confusion/type_confusion.html)
+        - [Integer Overflow/Underflow](https://ic4rta.github.io/integer-overflow/)
+        - [Null Pointer Dereference](https://cwe.mitre.org/data/definitions/476.html)
+        - [Arbitrary Overwrites (Write-What-Where condition)](https://connormcgarr.github.io/Kernel-Exploitation-2/)
+        - [RS2 Bitmap Necromancy](https://fuzzysecurity.com/tutorials/expDev/22.html)
 
 - **Creacion de rootkits**
 
