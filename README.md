@@ -225,8 +225,8 @@ Aqui si ya esta potente la cosa, en este punto ya todo es aun mas dificil (demas
         - [BlackHat](https://www.blackhat.com/presentations/bh-europe-06/bh-eu-06-Silberman-Butler.pdf)
         - [ReLearEx](https://relearex.wordpress.com/2017/12/26/hooking-series-part-i-import-address-table-hooking/)
 
-- [Sourcefire](https://www.youtube.com/playlist?list=PLgBE3-yjLAKXExnugTBonsPkLafL87k5m), "Minicurso" de desarrollo de rootkits
-- [RootKits and Bootkits](https://dl.ebooksworld.ir/motoman/No.Starch.Press.Rootkits.and.Bootkits.www.EBooksWorld.ir.pdf), es muy buen libro, ya que te enseñan tenicas que han usados rootkit para evadir AV/EDRs, las formas que han usados bootkits para sobreescribir la UEFI, almacenarse en el chipset de la BIOS y escarlar de ring 3 a ring 0, etc
+ [Sourcefire](https://www.youtube.com/playlist?list=PLgBE3-yjLAKXExnugTBonsPkLafL87k5m), "Minicurso" de desarrollo de rootkits
+[RootKits and Bootkits](https://dl.ebooksworld.ir/motoman/No.Starch.Press.Rootkits.and.Bootkits.www.EBooksWorld.ir.pdf), es muy buen libro, ya que te enseñan tenicas que han usados rootkit para evadir AV/EDRs, las formas que han usados bootkits para sobreescribir la UEFI, almacenarse en el chipset de la BIOS y escarlar de ring 3 a ring 0, etc
 
 ## Recursos adicionales
 
