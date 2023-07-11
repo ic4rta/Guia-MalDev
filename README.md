@@ -4,7 +4,6 @@ Esta es una pequeña guia de como empezar a desarrollar malware donde te pondre 
 
 - Hacer todo manual
 - Programar todo desde cero en C/C++ y ensamblador
-- No usar scripts de otros
 - No se tiene nada de conocimiento de como funciona una computadora (internamente), en programacion, redes y sistema operativos
 - Todos los recursos mostrados son gratis
 
