@@ -152,17 +152,17 @@ Este es un gran salto, la WinAPI es muy extensa, hay miles de funciones, y desde
     - Thread Hijacking
     - Local Thread Hijacking
     - Shellcode via CreatePoolWait
-    - Reflective DLL injection (Papea antivirus)
-    - Process Hollowing (esta es GOD)
+    - Reflective DLL injection
+    - Process Hollowing
     - Shellcode via Inter-Process Mapped-View
-    - Ghostwriting (esta es GOD tambien)
-    - Atom Bombing (esto papea antivirus)
-    - Process Doppelgänging (tambien papea antivirus)
-    - Early Bird APC Queue (aveces papea antivirus, por que la shellcode se ejecuta antes que un EDR)
-    - Fiber injection (papea antivirus si usas varias fibras)
-    - PROPagate (Es GOD y poco documentada)
-    - Module Stomping (No papea todos los antivirus pero si al windows defender, y es muy buena para inyectar una DLL)
-    - NLS Code Injection (Papea antivirus, muy poco documentada, y muy dificil de aplicar)
+    - Ghostwriting
+    - Atom Bombing
+    - Process Doppelgänging
+    - Early Bird APC Queue
+    - Fiber injection
+    - PROPagate
+    - Module Stomping
+    - NLS Code Injection
 
 - **AntiDBG (evadir depuradores)**
 
