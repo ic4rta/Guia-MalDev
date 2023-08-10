@@ -130,7 +130,7 @@ Este es un gran salto, la WinAPI es muy extensa, hay miles de funciones, y desde
       - [CreateProcess](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa)
       - [CreateThread](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createthread)
       - [CreateFileMapping](https://learn.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-createfilemappinga)
-      - [CreateMutex](https://learn.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-createmutexa), esta es GOD por que puedes crear una exclusion mutua para que el malware se ejecute en una sola instancia en un momento dado, usada múltiples veces por droppers y loaders
+      - [CreateMutex](https://learn.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-createmutexa), esta es interesante por que puedes crear una exclusión mutua para que el malware se ejecuté una sola vez y no vuelva a ejecutarse si la máquina ya fue infectada
       - [DeviceIoControl](https://learn.microsoft.com/en-us/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol)
 
     - Keyloggers
