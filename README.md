@@ -86,17 +86,15 @@ A este punto ya podrias continuar con la lectura de ```Operating System Concepts
 
 ### :orange_circle: Shellcodes
 
-En este punto ya estoy considerando que ya le sabes al bisnes de todo lo anterior
-
 - **Desarrollo de shellcodes**
 
     - [Fundacion Sadosky](https://fundacion-sadosky.github.io/guia-escritura-exploits/buffer-overflow/2-shellcode.html), Considero que es de los mejores recursos en español para empezar a crear shellcodes
 
     - [Pentester 77](https://www.youtube.com/watch?v=9UZ4o-0LTSY&t=3376s), E bueno, todo muy practico y bastante visual
 
-    - [cocomeloc](https://cocomelonc.github.io/tutorial/2021/10/27/windows-shellcoding-1.html), Que te puedo decir, obra maestra
+    - [cocomeloc](https://cocomelonc.github.io/tutorial/2021/10/27/windows-shellcoding-1.html), Creacion de shellcodes en windows (ejecuta calc.exe)
 
-    - [Axcheron](https://axcheron.github.io/linux-shellcode-101-from-hell-to-shell/), Otra maldita obra maestra
+    - [Axcheron](https://axcheron.github.io/linux-shellcode-101-from-hell-to-shell/), Shellcode execve para bin/sh
 
     - [c4rta](https://ic4rta.github.io//maldev-shellcodes/), Soy yo, te enseño a crear dos shellcodes, una para imprimir algo y otra para /bin/sh
 
@@ -131,7 +129,6 @@ Este es un gran salto, la WinAPI es muy extensa, hay miles de funciones, y desde
       - [CreateThread](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createthread)
       - [CreateFileMapping](https://learn.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-createfilemappinga)
       - [CreateMutex](https://learn.microsoft.com/en-us/windows/win32/api/synchapi/nf-synchapi-createmutexa), esta es interesante por que puedes crear una exclusión mutua para que el malware se ejecuté una sola vez y no vuelva a ejecutarse si la máquina ya fue infectada
-      - [DeviceIoControl](https://learn.microsoft.com/en-us/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol)
 
     - Keyloggers
       - [GetAsyncKeyState](https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getasynckeystate)
@@ -203,7 +200,7 @@ Este es un gran salto, la WinAPI es muy extensa, hay miles de funciones, y desde
 
 ### :white_circle: Desarrollo de malware poco mas avanzado
 
-Como practica, puedes implementar las mismas tecnias mostradas anteriormente pero ahora usando la NTAPI
+Como practica, puedes implementar las mismas tecnicas mostradas anteriormente pero ahora usando la NTAPI
 
 - **API nativa o NTAPI**
 
@@ -220,8 +217,6 @@ Como practica, puedes implementar las mismas tecnias mostradas anteriormente per
     - [ImproSec: Windows Kernel Shellcodes Pt4](https://improsec.com/tech-blog/windows-kernel-shellcode-on-windows-10-part-4-there-is-no-code)
 
 ### :yellow_circle: Desarrollo de malware mas avanzado
-
-Aqui si ya esta potente la cosa, en este punto ya todo es aun mas dificil (demasiado)
 
 - **Programacion y explotacion de drivers**
     
