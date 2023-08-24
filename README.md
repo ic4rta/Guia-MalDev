@@ -299,7 +299,7 @@ Como practica, puedes implementar las mismas tecnicas mostradas anteriormente pe
 ### Usuarios que han contribuido
 <a href="https://github.com/ic4rta" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/ic4rta" width="60" height="60"/></a>
 <a href="https://github.com/droix3d" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/109915316?v=4" width="60" height="60"/></a>
-<a href="https://github.com/ic4rta" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/NotAndeer" width="60" height="60"/></a>
+<a href="https://github.com/NotAndeer" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/NotAndeer" width="60" height="60"/></a>
 
 ## Recursos adicionales
 
