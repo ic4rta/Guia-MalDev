@@ -96,7 +96,7 @@ A este punto ya podrias continuar con la lectura de ```Operating System Concepts
 
     - [Axcheron](https://axcheron.github.io/linux-shellcode-101-from-hell-to-shell/), Shellcode execve para bin/sh
 
-    - [c4rta](https://ic4rta.github.io//maldev-shellcodes/), Soy yo, te enseño a crear dos shellcodes, una para imprimir algo y otra para /bin/sh
+    - [c4rta](https://ic4rta.github.io/2023/06/07/maldev-shellcodes/), Soy yo, te enseño a crear dos shellcodes, una para imprimir algo y otra para /bin/sh
 
 
 ### :purple_circle: Introduccion a la WinAPI o Win32 API
