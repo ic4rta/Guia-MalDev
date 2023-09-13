@@ -172,7 +172,7 @@ Este es un gran salto, la WinAPI es muy extensa, hay miles de funciones, y desde
 
     - [Cynet: AntiVM techniques](https://www.cynet.com/attack-techniques-hands-on/malware-anti-vm-techniques/)
     - [InfoSec Institute: AntiVM techniques](https://resources.infosecinstitute.com/topic/anti-debugging-and-anti-vm-techniques-and-anti-emulation/)
-    - [Papi Noteworthy: AntiVM techniques](https://github.com/LordNoteworthy/al-khaser/tree/master/al-khaser/AntiVM)
+    - [Noteworthy: AntiVM techniques](https://github.com/LordNoteworthy/al-khaser/tree/master/al-khaser/AntiVM)
     - [DeepInstinct: AntiVM techniques](https://www.deepinstinct.com/blog/malware-evasion-techniques-part-2-anti-vm-blog)
 
 - **Anti Disassembly**
@@ -182,7 +182,7 @@ Este es un gran salto, la WinAPI es muy extensa, hay miles de funciones, y desde
 
 -  **Timming Attacks/Ataques basados en temporizadores**
 
-    - [Papi Noteworthy](https://github.com/LordNoteworthy/al-khaser/blob/master/al-khaser/TimingAttacks/timing.cpp)
+    - [Noteworthy](https://github.com/LordNoteworthy/al-khaser/blob/master/al-khaser/TimingAttacks/timing.cpp)
 
 - **Ofuscacion y Packers**
 
