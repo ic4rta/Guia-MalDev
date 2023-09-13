@@ -55,6 +55,8 @@ Esto es debatible, por que este libro aparte de darte conceptos basicos, te ense
 
 Si solo quieres una pequeña introduccion sobre como funciona una compu, el CPU, la administracion de memoria, los procesos, etc, puedes leer hasta la parte **2.10** o hasta la pagina **102**
 
+Adicionalmente puedes saltarte hasta el capítulo 10 (capítulo 389) para conocer acerca del VAS (Virtual Adress Space)
+
 ### :green_circle: Introduccion a la programacion en C/C++
 
 - **Logica de programacion**:
