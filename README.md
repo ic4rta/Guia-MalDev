@@ -316,7 +316,7 @@ Como practica, puedes implementar las mismas tecnicas mostradas anteriormente pe
 #### Canales de YouTube
 
 - [GuidedHacking](https://www.youtube.com/@GuidedHacking)
-- [crow](https://www.youtube.com/@crr0ww)
+- [cr0w](https://www.youtube.com/@crr0ww)
 - [ActiveXSploit](https://www.youtube.com/@ActiveXSploit)
 - [Tech69](https://www.youtube.com/@Tech69YT) - Playlist de Malware Development
 
