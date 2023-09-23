@@ -15,15 +15,13 @@ Esta es una pequeña guia de como empezar a desarrollar malware donde te pondre 
 
 **Nota 4:** Pequeño "foro" por si tienes algunas duda, aportacion, opinion, etc: [Click aqui](https://github.com/ic4rta/Guia-MalDev/discussions/1) o en el apartado de "Discussions"
 
-## MalDev
-
 ### :brown_circle: Fundamentos
 
 - **Fundamentos de windows**
     - [THM Pt1](https://tryhackme.com/room/windowsfundamentals1xbx)
     - [THM Pt2](https://tryhackme.com/room/windowsfundamentals2x0x) 
     - [THM Pt3](https://tryhackme.com/room/windowsfundamentals3xzx) 
-    - [HTB Windows Fundamentals](https://academy.hackthebox.com/module/details/49) (por si no quieres usar THM por sus funas acerca de su seguridad)
+    - [HTB Windows Fundamentals](https://academy.hackthebox.com/module/details/49) (por si no quieres usar THM)
 
 - **Fundamentos de Linux**
     - [HTB Linux Fundamentals](https://academy.hackthebox.com/module/details/18) 
@@ -43,7 +41,7 @@ Esta es una pequeña guia de como empezar a desarrollar malware donde te pondre 
     - [Lo mismo de arriba pero en video](https://www.youtube.com/watch?v=bPt6DH8NYPY)
 
 - **Linux Shells (comandos y demas)** Esto podria ser complementario con la parte de ```Fudamentos en Linux```
-    - [Practica por HTM](https://tryhackme.com/room/linuxstrengthtraining)
+    - [Practica por THM](https://tryhackme.com/room/linuxstrengthtraining)
     - [Overthewrite Bandit](https://overthewire.org/wargames/bandit/)
 
 - **Sistemas operativos** 
@@ -200,11 +198,9 @@ Este es un gran salto, la WinAPI es muy extensa, hay miles de funciones, y desde
     - [Chetan Nayak: Welcome to the Dark Side: Part 3](https://niiconsulting.com/checkmate/2018/03/malware-development-welcome-dark-side-part-3/)
     - [Chetan Nayak: Welcome to the Dark Side: Part 4](https://niiconsulting.com/checkmate/2018/03/malware-development-welcome-to-the-dark-side-part-4/)
 
-### :white_circle: Desarrollo de malware poco mas avanzado
-
+---
+- **API nativa o NTAPI**:
 Como practica, puedes implementar las mismas tecnicas mostradas anteriormente pero ahora usando la NTAPI
-
-- **API nativa o NTAPI**
 
     - [ACCU Conference](https://www.youtube.com/watch?v=a0KozcRhotM)
     - [Sysinternals Freeware](https://web.archive.org/web/20121224002314/http://netcode.cz/img/83/nativeapi.html)
@@ -218,8 +214,7 @@ Como practica, puedes implementar las mismas tecnicas mostradas anteriormente pe
     - [ImproSec: Windows Kernel Shellcodes Pt3](https://improsec.com/tech-blog/windows-kernel-shellcode-on-windows-10-part-3)
     - [ImproSec: Windows Kernel Shellcodes Pt4](https://improsec.com/tech-blog/windows-kernel-shellcode-on-windows-10-part-4-there-is-no-code)
 
-### :yellow_circle: Desarrollo de malware mas avanzado
-
+---
 - **Programacion y explotacion de drivers**
     
     - [MSDN: Drivers Introduction](https://learn.microsoft.com/en-us/windows-hardware/drivers/gettingstarted/)
@@ -237,6 +232,7 @@ Como practica, puedes implementar las mismas tecnicas mostradas anteriormente pe
         - [Arbitrary Overwrites (Write-What-Where condition)](https://connormcgarr.github.io/Kernel-Exploitation-2/)
         - [RS2 Bitmap Necromancy](https://fuzzysecurity.com/tutorials/expDev/22.html)
 
+---
 - **Creacion de rootkits**
   
     - Seguridad y Explotacion del UEFI
@@ -296,7 +292,7 @@ Como practica, puedes implementar las mismas tecnicas mostradas anteriormente pe
 
  [Sourcefire](https://www.youtube.com/playlist?list=PLgBE3-yjLAKXExnugTBonsPkLafL87k5m), "Minicurso" de desarrollo de rootkits
 
-[RootKits and Bootkits](https://dl.ebooksworld.ir/motoman/No.Starch.Press.Rootkits.and.Bootkits.www.EBooksWorld.ir.pdf), es muy buen libro, ya que te enseñan tenicas que han usados rootkit para evadir AV/EDRs, las formas que han usados bootkits para sobreescribir la UEFI, almacenarse en el chipset de la BIOS y escarlar de ring 3 a ring 0, etc
+[RootKits and Bootkits](https://dl.ebooksworld.ir/motoman/No.Starch.Press.Rootkits.and.Bootkits.www.EBooksWorld.ir.pdf), es muy buen libro, ya que te enseñan tecnicas que han usados rootkits para evadir AV/EDRs, sobreescribir la UEFI y BIOS, almacenarse en el chipset de la BIOS, escalar de ring 3 a ring 0, etc
 
 ### Usuarios que han contribuido
 <a href="https://github.com/ic4rta" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/ic4rta" width="60" height="60"/></a>
