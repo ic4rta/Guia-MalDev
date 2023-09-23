@@ -313,6 +313,13 @@ Como practica, puedes implementar las mismas tecnicas mostradas anteriormente pe
 - [https://zerosum0x0.blogspot.com/](https://zerosum0x0.blogspot.com/)
 - [https://www.guitmz.com/](https://www.guitmz.com/)
 
+#### Canales de YouTube
+
+- [GuidedHacking](https://www.youtube.com/@GuidedHacking)
+- [crow](https://www.youtube.com/@crr0ww)
+- [ActiveXSploit](https://www.youtube.com/@ActiveXSploit)
+- [Tech69](https://www.youtube.com/@Tech69YT) - Playlist de Malware Development
+
 #### GitHubs
 
 - [https://github.com/rootkit-io/awesome-malware-development](https://github.com/rootkit-io/awesome-malware-development)
