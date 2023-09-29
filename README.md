@@ -59,7 +59,7 @@ Adicionalmente puedes saltarte hasta el capítulo 10 (página 389) para conocer 
 
 - **Logica de programacion**:
 
-    - [Serie de videos en youtube](https://www.youtube.com/playlist?list=PLDLnmbUDWFUtFTqLf_lS99z2gmYU5ouRv)
+    - [El camino del programador - lógica de programación (YouTube)](https://www.youtube.com/playlist?list=PLDLnmbUDWFUtFTqLf_lS99z2gmYU5ouRv)
 
 - **Programacion en C/C++**
 
