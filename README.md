@@ -32,7 +32,7 @@ Esta es una pequeña guia de como empezar a desarrollar malware donde te pondre 
     - [THM: ¿Que es una red?](https://tryhackme.com/room/whatisnetworking)
     - [THM: Introduccion al networking](https://tryhackme.com/room/introtonetworking)
     - [HTB: Introduccion al networking](https://academy.hackthebox.com/module/details/34)
-    - [Curso por un indio tryhard](https://www.youtube.com/watch?v=IPvYjXCsTg8)
+    - [Curso por un hindú tryhard, muy didáctico a mi parecer](https://www.youtube.com/watch?v=IPvYjXCsTg8)
     - [droix3d: Modelo TCP-IP](https://droix3d.github.io/posts/TCP-IP/)
 
 - **Introduccion a PowerShell**
