@@ -101,14 +101,14 @@ A este punto ya podrias continuar con la lectura de ```Operating System Concepts
 
 ### :purple_circle: Introduccion a la WinAPI o Win32 API
 
-Este es un gran salto, la WinAPI es muy extensa, hay miles de funciones, y desde ahora te digo que no hay ninguna funcion exclusiva para el desarrollo de malware, **NINGUNA**, asi que lo que pasa en este punto es que debes de ver como puedes usar esas funciones para desarrollar malware, es decir, aplicarlas para otro fin del que fueron creadas, regularmente las funciones que se usan son las que tiene que ver con el manejo de procesos, subprocesos, y todo lo relacionado al VAS (Virtual Adress Space)
+La WinAPI es muy extensa, por lo que regularmente las funciones que se usan son las que tiene que ver con el manejo de procesos, subprocesos, y todo lo relacionado al VAS (Virtual Adress Space)
 
 - **Programando con la WinAPI**
 
     - [Introduccion a la WinAPI](https://tryhackme.com/room/windowsapi)
     - [WinAPI process management](https://learn.microsoft.com/pdf?url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fwindows%2Fwin32%2Fprocthread%2Ftoc.json), es un PDF de Windows con todas las funciones de procesos y sub procesos, son mas de 1100 paginas
 
-- **Funciones recomedadas (no son todas)**
+- **Algunas funciones (no son todas)**
     - Persistencia
       - [RegCreateKeyEx](https://learn.microsoft.com/en-us/windows/win32/api/winreg/nf-winreg-regcreatekeyexa)
       - [RegOpenKeyEx](https://learn.microsoft.com/en-us/windows/win32/api/winreg/nf-winreg-regopenkeyexa)
@@ -222,7 +222,7 @@ Como practica, puedes implementar las mismas tecnicas mostradas anteriormente pe
     - [Piotr Bania: Explotacion de drivers](https://www.piotrbania.com/all/articles/ewdd.pdf)
     - [Off By One Security: Modern Windows Kernel Exploitation](https://www.youtube.com/watch?v=nauAlHXrkIk)
     - [HackSys Driver](https://github.com/hacksysteam/HackSysExtremeVulnerableDriver)
-    - Bring Your Own Vulnerable Driver (no encontre tutoriales, pero basicamente ya debes de saber programar drivers, y encima con una vulnerabilidad intencionada, ej)
+    - Bring Your Own Vulnerable Driver (no encontre tutoriales, pero basicamente es necesario saber programar drivers o cargar uno con una vulnerabilidad intencionada, ejemplo:)
         - [Stack Overflow](https://blog.xpnsec.com/hevd-stack-overflow/)
         - [Pool Overflow](https://connormcgarr.github.io/swimming-in-the-kernel-pool-part-1/)
         - [Use After Free](https://infosecwriteups.com/use-after-free-13544be5a921)
