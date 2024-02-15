@@ -32,7 +32,7 @@ Esta es una pequeña guia de como empezar a desarrollar malware donde te pondre 
     - [THM: ¿Que es una red?](https://tryhackme.com/room/whatisnetworking)
     - [THM: Introduccion al networking](https://tryhackme.com/room/introtonetworking)
     - [HTB: Introduccion al networking](https://academy.hackthebox.com/module/details/34)
-    - [Curso por un hindú tryhard, muy didáctico a mi parecer](https://www.youtube.com/watch?v=IPvYjXCsTg8)
+    - [ Computer Networking Full Course - OSI Model Deep Dive with Real Life Examples](https://www.youtube.com/watch?v=IPvYjXCsTg8)
     - [droix3d: Modelo TCP-IP](https://droix3d.github.io/posts/TCP-IP/)
 
 - **Introduccion a PowerShell**
@@ -43,6 +43,7 @@ Esta es una pequeña guia de como empezar a desarrollar malware donde te pondre 
 - **Linux Shells (comandos y demas)** Esto podria ser complementario con la parte de ```Fudamentos en Linux```
     - [Practica por THM](https://tryhackme.com/room/linuxstrengthtraining)
     - [Overthewrite Bandit](https://overthewire.org/wargames/bandit/)
+    - [HackMyVM - Laboratorios Hades y Venus](https://hackmyvm.eu/)
 
 - **Sistemas operativos** 
 
@@ -72,17 +73,17 @@ A este punto ya podrias continuar con la lectura de ```Operating System Concepts
 
 ### :large_blue_circle: Introduccion a ensamblador
 
-- **Ensamblador x64 y x86 bits**
+- **Ensamblador x86-64 y x86**
 
     - [Curso Neomatrix](https://www.youtube.com/playlist?list=PLZw5VfkTcc8Mzz6HS6-XNxfnEyHdyTlmP), Este es full introductorio, no es mala idea verlo primero
 
-    - [Curso Solid y Ricardo Narvaja](https://www.youtube.com/playlist?list=PLn__CHOEZR1Ymxi2n4Q9G9I9kBYr6B4Ft), Que te puedo decir. orientado al reversing, full practico desde un depurador, tremenda obra audiovisual, obra maestra 10 de 10
+    - [Curso Solid y Ricardo Narvaja](https://www.youtube.com/playlist?list=PLn__CHOEZR1Ymxi2n4Q9G9I9kBYr6B4Ft), Orientado al reversing, full practico desde un depurador
 
-    - [Open Security Training](https://opensecuritytraining.info/IntroX86.html), Esto nomas son como diapositivas aca rapidas sin tanta explicacion y videos
+    - [Open Security Training](https://opensecuritytraining.info/IntroX86.html), Son como diapositivas aca rapidas con conceptos puntuales
 
-    - [Open Security Training v2](https://p.ost2.fyi/courses/course-v1:OpenSecurityTraining2+Arch1001_x86-64_Asm+2021_v1/about), Lo mismo de arriba pero version 2 (desconozco si este es gratis, no me registre)
+    - [Open Security Training v2](https://p.ost2.fyi/courses/course-v1:OpenSecurityTraining2+Arch1001_x86-64_Asm+2021_v1/about), Lo mismo de arriba pero version 2 (desconozco si este es gratis)
 
-    - [0xInfection](https://0xinfection.github.io/reversing/), Infravalorado pero muy bueno, orientado de la explotacion binaria y reversing, full practico desde GNU debugger
+    - [0xInfection](https://0xinfection.github.io/reversing/), Orientado a la explotacion binaria y reversing, full practico desde GNU debugger
 
 ### :orange_circle: Shellcodes
 
@@ -90,7 +91,7 @@ A este punto ya podrias continuar con la lectura de ```Operating System Concepts
 
     - [Fundacion Sadosky](https://fundacion-sadosky.github.io/guia-escritura-exploits/buffer-overflow/2-shellcode.html), Considero que es de los mejores recursos en español para empezar a crear shellcodes
 
-    - [Pentester 77](https://www.youtube.com/watch?v=9UZ4o-0LTSY&t=3376s), E bueno, todo muy practico y bastante visual
+    - [Pentester 77](https://www.youtube.com/watch?v=9UZ4o-0LTSY&t=3376s), Todo muy practico y bastante visual
 
     - [cocomeloc](https://cocomelonc.github.io/tutorial/2021/10/27/windows-shellcoding-1.html), Creacion de shellcodes en windows (ejecuta calc.exe)
 
