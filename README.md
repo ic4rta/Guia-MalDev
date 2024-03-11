@@ -25,7 +25,7 @@ Esta es una pequeña guia de como empezar a desarrollar malware donde te pondre 
 
 - **Fundamentos de Linux**
     - [HTB Linux Fundamentals](https://academy.hackthebox.com/module/details/18) 
-    - [Curso por edureka](https://www.youtube.com/watch?v=bz0ZCUv5rYo) 
+    - [Linux Full Course - 11 Hours [2024] | Linux Tutorial For Beginners | Linux Training | Edureka](https://www.youtube.com/watch?v=bz0ZCUv5rYo) 
     - [Linux Basics For Hackers](https://www.kea.nu/files/textbooks/humblesec/linuxbasicsforhackers.pdf)
     
 - **Fundamentos en Redes**
@@ -38,10 +38,10 @@ Esta es una pequeña guia de como empezar a desarrollar malware donde te pondre 
 - **Introduccion a PowerShell**
     - [Pequeña introduccion por Microsoft](https://learn.microsoft.com/en-us/training/modules/introduction-to-powershell/)
     - [PowerShell 101 por Microsoft](https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/00-introduction?view=powershell-7.3)
-    - [Lo mismo de arriba pero en video](https://www.youtube.com/watch?v=bPt6DH8NYPY)
+    - [Powershell Training Full Course for Beginners [Tutorial] |Windows Powershell Training](https://www.youtube.com/watch?v=bPt6DH8NYPY)
 
 - **Linux Shells (comandos y demas)** Esto podria ser complementario con la parte de ```Fudamentos en Linux```
-    - [Practica por THM](https://tryhackme.com/room/linuxstrengthtraining)
+    - [Linux Strength Training - THM](https://tryhackme.com/room/linuxstrengthtraining)
     - [Overthewrite Bandit](https://overthewire.org/wargames/bandit/)
     - [HackMyVM - Laboratorios Hades y Venus](https://hackmyvm.eu/)
 
@@ -49,12 +49,17 @@ Esta es una pequeña guia de como empezar a desarrollar malware donde te pondre 
 
     - [Operating System Concepts](https://os.ecci.ucr.ac.cr/slides/Abraham-Silberschatz-Operating-System-Concepts-10th-2018.pdf)
 
+        Esto es debatible, por que este libro aparte de darte conceptos basicos, te enseñara cosas sobre arquitectura de computadoras donde tendras que programar en C y ensamblador, y tomando en cuenta que esta guia lleva un orden, en este punto aun no se entra en materia de programacion.
+        
+        Si solo quieres una pequeña introduccion sobre como funciona una compu, el CPU, la administracion de memoria, los procesos, etc, puedes leer hasta la parte **2.10** o hasta la pagina **102**
+        
+        Adicionalmente puedes saltarte hasta el capítulo 10 (página 389) para conocer acerca del VAS (Virtual Adress Space)
 
-Esto es debatible, por que este libro aparte de darte conceptos basicos, te enseñara cosas sobre arquitectura de computadoras donde tendras que programar en C y ensamblador, y tomando en cuenta que esta guia lleva un orden, en este punto aun no se entra en materia de programacion.
-
-Si solo quieres una pequeña introduccion sobre como funciona una compu, el CPU, la administracion de memoria, los procesos, etc, puedes leer hasta la parte **2.10** o hasta la pagina **102**
-
-Adicionalmente puedes saltarte hasta el capítulo 10 (página 389) para conocer acerca del VAS (Virtual Adress Space)
+- **Archivos PE y ELF**
+    - [A brief introduction to PE format](https://medium.com/ax1al/a-brief-introduction-to-pe-format-6052914cc8dd)
+    - [Malware Theory - Basic Structure of PE Files](https://youtu.be/l6GjU8fm8sM?si=5gtBTZsN74hTKqly)
+    - [In-depth: ELF - The Extensible & Linkable Format](https://youtu.be/nC1U1LJQL8o?si=uL4I-SiD5HCWr083)
+    - [Serie de post de la estructura de los ELF](http://blog.k3170makan.com/search?q=elf+format)
 
 ### :green_circle: Introduccion a la programacion en C/C++
 
@@ -89,15 +94,12 @@ A este punto ya podrias continuar con la lectura de ```Operating System Concepts
 
 - **Desarrollo de shellcodes**
 
-    - [Fundacion Sadosky](https://fundacion-sadosky.github.io/guia-escritura-exploits/buffer-overflow/2-shellcode.html), Considero que es de los mejores recursos en español para empezar a crear shellcodes
+    - [Shellcode & syscalls - Fundacion Sadosky](https://fundacion-sadosky.github.io/guia-escritura-exploits/buffer-overflow/2-shellcode.html)
+    - [Taller Práctico - Desarrollo de Exploits y Shellcodes para GNU/Linux](https://www.youtube.com/watch?v=9UZ4o-0LTSY&t=3376s)
+    - [Windows shellcoding - part 1 - Cocomeloc](https://cocomelonc.github.io/tutorial/2021/10/27/windows-shellcoding-1.html)
 
-    - [Pentester 77](https://www.youtube.com/watch?v=9UZ4o-0LTSY&t=3376s), Todo muy practico y bastante visual
-
-    - [cocomeloc](https://cocomelonc.github.io/tutorial/2021/10/27/windows-shellcoding-1.html), Creacion de shellcodes en windows (ejecuta calc.exe)
-
-    - [Axcheron](https://axcheron.github.io/linux-shellcode-101-from-hell-to-shell/), Shellcode execve para bin/sh
-
-    - [c4rta](https://ic4rta.github.io/2023/06/07/maldev-shellcodes/), Soy yo, te enseño a crear dos shellcodes, una para imprimir algo y otra para /bin/sh
+    - [Linux Shellcode 101: From Hell to Shell - Axcheron](https://axcheron.github.io/linux-shellcode-101-from-hell-to-shell/)
+    - [/bin/sh shellcode - c4rta](https://ic4rta.github.io/2023/06/07/maldev-shellcodes/)
 
 
 ### :purple_circle: Introduccion a la WinAPI o Win32 API
@@ -140,7 +142,7 @@ La WinAPI es muy extensa, por lo que regularmente las funciones que se usan son 
 - **Introduccion a las inyecciones de proceso/codigo**
 
     - [ATT&CK](https://www.youtube.com/watch?v=CwglaQRejio)
-    - [MalwareAnalysisForHedgehogs](https://www.youtube.com/watch?v=tBR1-1J5Jec&t=330s)
+    - [Malware Theory - Process Injection](https://www.youtube.com/watch?v=tBR1-1J5Jec&t=330s)
 
 - **Algunas tecnicas de inyecciones de procesos/codigo**, algunas tecnicas con las que puedes empezar a inyectar tus primeras shellcodes o DLLs, algunas de estas tambien puedes ser usadas para evadir los AV/EDRs, ten en cuenta que cada una funciona de diferente forma, asi que procura entenderlas y analizarlas en un depurador, tambien pueden ser aplicadas de diferentes formas
 
@@ -165,7 +167,7 @@ La WinAPI es muy extensa, por lo que regularmente las funciones que se usan son 
 - **AntiDBG (evadir depuradores)**
 
     - [Anti-Debug Checkpoint: AntiDBG techniques](https://anti-debug.checkpoint.com/techniques/debug-flags.html)
-    - [Papi Noteworthy: AntiDBG techniques](https://github.com/LordNoteworthy/al-khaser/tree/master/al-khaser/AntiDebug)
+    - [Noteworthy: AntiDBG techniques](https://github.com/LordNoteworthy/al-khaser/tree/master/al-khaser/AntiDebug)
 
 - **AntiVM y Anti emulacion (evadir maquinas virtuales)**
 
@@ -181,7 +183,7 @@ La WinAPI es muy extensa, por lo que regularmente las funciones que se usan son 
 
 -  **Timming Attacks/Ataques basados en temporizadores**
 
-    - [Noteworthy](https://github.com/LordNoteworthy/al-khaser/blob/master/al-khaser/TimingAttacks/timing.cpp)
+    - [Noteworthy timming-attacks](https://github.com/LordNoteworthy/al-khaser/blob/master/al-khaser/TimingAttacks/timing.cpp)
 
 - **Ofuscacion y Packers**
 
@@ -265,29 +267,29 @@ Como practica, puedes implementar las mismas tecnicas mostradas anteriormente pe
         - [PEI Backdoor](https://github.com/Cr4sh/PeiBackdoor)
     
     - Inline Hooking
-        - [MalwareTech](https://www.malwaretech.com/2015/01/inline-hooking-for-programmers-part-1.html) 
-        - [SecureHat](https://blog.securehat.co.uk/process-injection/manually-implementing-inline-function-hooking)
-        - [Ruben Revuelta](https://rrevueltab.medium.com/user-mode-rootkits-i-inline-hooking-66339e9332cb)
-        - [InmuniWeb](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjCiebDoIWAAxWgKEQIHbTyDhAQFnoECBYQAQ&url=https%3A%2F%2Fwww.immuniweb.com%2Fpublication%2Finline_hooking_in_windows.pdf&usg=AOvVaw39quiH9EVG15C5XmAdxLlA&opi=89978449)
+        - [Inline Hooking for Programmers - MalwareTech](https://www.malwaretech.com/2015/01/inline-hooking-for-programmers-part-1.html) 
+        - [Manually Implementing Inline Function Hooking - SecureHat](https://blog.securehat.co.uk/process-injection/manually-implementing-inline-function-hooking)
+        - [User-mode rootkits (I): Inline Hooking - Ruben Revuelta](https://rrevueltab.medium.com/user-mode-rootkits-i-inline-hooking-66339e9332cb)
+        - [Inline Hooking in Windows - InmuniWeb](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjCiebDoIWAAxWgKEQIHbTyDhAQFnoECBYQAQ&url=https%3A%2F%2Fwww.immuniweb.com%2Fpublication%2Finline_hooking_in_windows.pdf&usg=AOvVaw39quiH9EVG15C5XmAdxLlA&opi=89978449)
     
     - SSDT Hooking
-        - [Dejan Lukan](https://resources.infosecinstitute.com/topic/hooking-system-service-dispatch-table-ssdt/)
-        - [Adlice](https://www.adlice.com/kernelmode-rootkits-part-1-ssdt-hooks/)
-        - [m0uk4](https://m0uk4.gitbook.io/notebooks/mouka/windowsinternal/ssdt-hook)
-        - [Samsclass](https://samsclass.info/126/proj/pDC16rk.htm)
+        - [Hooking the System Service Dispatch Table (SSDT) - Dejan Lukan](https://resources.infosecinstitute.com/topic/hooking-system-service-dispatch-table-ssdt/)
+        - [KernelMode Rootkits: Part 1, SSDT hooks - Adlice](https://www.adlice.com/kernelmode-rootkits-part-1-ssdt-hooks/)
+        - [Hook SSDT(Shadow) - m0uk4](https://m0uk4.gitbook.io/notebooks/mouka/windowsinternal/ssdt-hook)
+        - [SSDT Hooking - Samsclass](https://samsclass.info/126/proj/pDC16rk.htm)
 
     - IAT Hooking
-        - [Ruben Revuelta](https://rrevueltab.medium.com/user-mode-rootkits-ii-iat-hooking-dll-injection-134457eb14b0)
-        - [Adlice](https://www.adlice.com/userland-rootkits-part-1-iat-hooks/)
-        - [Pentest Blog](https://pentest.blog/offensive-iat-hooking/)
-        - [Guide Hacking](https://guidedhacking.com/threads/how-to-hook-import-address-table-iat-hooking.13555/)
+        - [User-mode rootkits (II): IAT Hooking + Dll Injection - Ruben Revuelta](https://rrevueltab.medium.com/user-mode-rootkits-ii-iat-hooking-dll-injection-134457eb14b0)
+        - [Userland Rootkits: Part 1, IAT hooks - Adlice](https://www.adlice.com/userland-rootkits-part-1-iat-hooks/)
+        - [Offensive IAT Hooking - Pentest Blog](https://pentest.blog/offensive-iat-hooking/)
+        - [How to Hook IAT table - Guide Hacking](https://guidedhacking.com/threads/how-to-hook-import-address-table-iat-hooking.13555/)
         - [BlackHat](https://www.blackhat.com/presentations/bh-europe-06/bh-eu-06-Silberman-Butler.pdf)
-        - [ReLearEx](https://relearex.wordpress.com/2017/12/26/hooking-series-part-i-import-address-table-hooking/)
+        - [Hooking Series PART I : Import Address Table Hooking - ReLearEx](https://relearex.wordpress.com/2017/12/26/hooking-series-part-i-import-address-table-hooking/)
      
-    - IRP y DKOM Hooking
-        - [Adlice](https://www.adlice.com/kernelmode-rootkits-part-2-irp-hooks/)
-        - [Qiyana: codigo de exemplo](https://www.unknowncheats.me/forum/c-and-c-/403581-kernel-irp-hook.html)
-        - [BlackHat](https://www.blackhat.com/presentations/win-usa-04/bh-win-04-butler.pdf)
+    - IRP hooking y DKOM manipulation
+        - [KernelMode Rootkits: Part 2, IRP hooks - Adlice](https://www.adlice.com/kernelmode-rootkits-part-2-irp-hooks/)
+        - [Kernel IRP hooking - Qiyana: codigo de ejemplo](https://www.unknowncheats.me/forum/c-and-c-/403581-kernel-irp-hook.html)
+        - [DKOM (Direct Kernel Object Manipulation - BlackHat](https://www.blackhat.com/presentations/win-usa-04/bh-win-04-butler.pdf)
         - [NixHacker: DKOM Manipulation](https://nixhacker.com/understanding-windows-dkom-direct-kernel-object-manipulation-attacks-eprocess/)
         - [INFILTRATE: Hiding and Hooking with Windows Extension Hosts](https://vimeo.com/335166152)
 
