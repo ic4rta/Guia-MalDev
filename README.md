@@ -9,11 +9,9 @@ Esta es una pequeña guia de como empezar a desarrollar malware donde te pondre 
 
 **Nota:** Solo soy un aprendiz y aficionado que quiso compartir estos recursos para los intersados en el tema
 
-**Nota 2:** No es necesario ver todos los recursos de cada parte, por que muchos hablan de lo mismo, solo te doy opciones, asi como tampoco es necesario verlos si ya sabes del tema
+**Nota 2:** Investiga aun mas por tu cuenta
 
-**Nota 3:** Investiga aun mas por tu cuenta
-
-**Nota 4:** Pequeño "foro" por si tienes algunas duda, aportacion, opinion, etc: [Click aqui](https://github.com/ic4rta/Guia-MalDev/discussions/1) o en el apartado de "Discussions"
+**Nota 3:** Pequeño "foro" por si tienes algunas duda, aportacion, opinion, etc: [Click aqui](https://github.com/ic4rta/Guia-MalDev/discussions/1) o en el apartado de "Discussions"
 
 ### :brown_circle: Fundamentos
 
