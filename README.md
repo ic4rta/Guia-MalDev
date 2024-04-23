@@ -288,7 +288,7 @@ Como practica, puedes implementar las mismas tecnicas mostradas anteriormente pe
         - [BlackHat](https://www.blackhat.com/presentations/bh-europe-06/bh-eu-06-Silberman-Butler.pdf)
         - [Hooking Series PART I : Import Address Table Hooking - ReLearEx](https://relearex.wordpress.com/2017/12/26/hooking-series-part-i-import-address-table-hooking/)
      
-    - IRP hooking y DKOM manipulation
+    - IRP hooking y DKOM
         - [KernelMode Rootkits: Part 2, IRP hooks - Adlice](https://www.adlice.com/kernelmode-rootkits-part-2-irp-hooks/)
         - [Kernel IRP hooking - Qiyana: codigo de ejemplo](https://www.unknowncheats.me/forum/c-and-c-/403581-kernel-irp-hook.html)
         - [DKOM (Direct Kernel Object Manipulation - BlackHat](https://www.blackhat.com/presentations/win-usa-04/bh-win-04-butler.pdf)
