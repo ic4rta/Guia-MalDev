@@ -72,8 +72,6 @@ Esta es una pequeña guia de como empezar a desarrollar malware donde te pondre 
     - [Learn-C](https://www.learn-c.org/)
     - [C cheatsheet?](https://learnxinyminutes.com/docs/c/)
 
-A este punto ya podrias continuar con la lectura de ```Operating System Concepts``` por que ya tendras las bases de la programacion en C/C++, y desde mi punto de vista no seria mala idea empezar con programacion concurrente y para interactuar con el sistema operativo
-
 ### :large_blue_circle: Introduccion a ensamblador
 
 - **Ensamblador x86-64 y x86**
@@ -87,6 +85,11 @@ A este punto ya podrias continuar con la lectura de ```Operating System Concepts
     - [Open Security Training v2](https://p.ost2.fyi/courses/course-v1:OpenSecurityTraining2+Arch1001_x86-64_Asm+2021_v1/about), Lo mismo de arriba pero version 2 (desconozco si este es gratis)
 
     - [0xInfection](https://0xinfection.github.io/reversing/), Orientado a la explotacion binaria y reversing, full practico desde GNU debugger
+
+
+- **Manejo de depuradores**
+    - [Guia basica de windbg por xchg2pwn (gatogamer)](https://xchg2pwn.github.io/exploitdevelopment/windbg/)
+    - [ Debugging C/C++ Programs from Scratch with WinDbg: A Beginner's Guide ](https://youtu.be/AgtgZDsADUI?si=4CdsZszbGAJK5rz_)
 
 ### :orange_circle: Shellcodes
 
@@ -110,7 +113,7 @@ La WinAPI es muy extensa, por lo que regularmente las funciones que se usan son 
     - [WinAPI process management](https://learn.microsoft.com/pdf?url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fwindows%2Fwin32%2Fprocthread%2Ftoc.json), es un PDF de Windows con todas las funciones de procesos y sub procesos, son mas de 1100 paginas
 
 - **Algunas funciones (no son todas)**
-    - Persistencia
+    - Persistencia via el registro
       - [RegCreateKeyEx](https://learn.microsoft.com/en-us/windows/win32/api/winreg/nf-winreg-regcreatekeyexa)
       - [RegOpenKeyEx](https://learn.microsoft.com/en-us/windows/win32/api/winreg/nf-winreg-regopenkeyexa)
       - [RegSetValueEx](https://learn.microsoft.com/en-us/windows/win32/api/winreg/nf-winreg-regsetvalueexa)
