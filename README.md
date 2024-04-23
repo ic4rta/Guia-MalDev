@@ -161,6 +161,7 @@ La WinAPI es muy extensa, por lo que regularmente las funciones que se usan son 
     - PROPagate
     - Module Stomping
     - NLS Code Injection
+    - Recopilación de técnicas: [https://github.com/daem0nc0re/TangledWinExec](https://github.com/daem0nc0re/TangledWinExec)
 
 - **AntiDBG (evadir depuradores)**
 
