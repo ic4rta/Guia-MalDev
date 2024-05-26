@@ -110,7 +110,7 @@ La WinAPI es muy extensa, por lo que regularmente las funciones que se usan son 
 - **Programando con la WinAPI**
 
     - [Introduccion a la WinAPI](https://tryhackme.com/room/windowsapi)
-    - [WinAPI process management](https://learn.microsoft.com/pdf?url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fwindows%2Fwin32%2Fprocthread%2Ftoc.json), es un PDF de Windows con todas las funciones de procesos y sub procesos, son mas de 1100 paginas
+    - [WinAPI process management](https://learn.microsoft.com/pdf?url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fwindows%2Fwin32%2Fprocthread%2Ftoc.json), es un PDF de Windows con todas las funciones de procesos y sub procesos
 
 - **Algunas funciones (no son todas)**
     - Persistencia via el registro
@@ -137,6 +137,8 @@ La WinAPI es muy extensa, por lo que regularmente las funciones que se usan son 
     - Keyloggers
       - [GetAsyncKeyState](https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getasynckeystate)
       - [SetWindowsHookEx](https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setwindowshookexa)
+     
+Sitio web con multiples funciones de la winapi y su uso en el desarrollo de malware: ![https://malapi.io/](https://malapi.io/)
 
 ### :red_circle: Desarrollo de malware
 
@@ -145,7 +147,7 @@ La WinAPI es muy extensa, por lo que regularmente las funciones que se usan son 
     - [ATT&CK](https://www.youtube.com/watch?v=CwglaQRejio)
     - [Malware Theory - Process Injection](https://www.youtube.com/watch?v=tBR1-1J5Jec&t=330s)
 
-- **Algunas tecnicas de inyecciones de procesos/codigo**, algunas tecnicas con las que puedes empezar a inyectar tus primeras shellcodes o DLLs, algunas de estas tambien puedes ser usadas para evadir los AV/EDRs, ten en cuenta que cada una funciona de diferente forma, asi que procura entenderlas y analizarlas en un depurador, tambien pueden ser aplicadas de diferentes formas
+- **Algunas tecnicas de inyecciones de procesos/codigo**, algunas tecnicas con las que puedes empezar a inyectar tus primeras shellcodes o DLLs, algunas de estas tambien puedes ser usadas para evadir los AV/EDRs en memoria, ten en cuenta que cada una funciona de diferente forma, asi que procura entenderlas y analizarlas en un depurador, tambien pueden ser aplicadas de diferentes formas
 
     - Shellcode via Inline Assembly
     - RemoteThreadInjection
@@ -298,11 +300,6 @@ Como practica, puedes implementar las mismas tecnicas mostradas anteriormente pe
  [Sourcefire](https://www.youtube.com/playlist?list=PLgBE3-yjLAKXExnugTBonsPkLafL87k5m), "Minicurso" de desarrollo de rootkits
 
 [RootKits and Bootkits](https://dl.ebooksworld.ir/motoman/No.Starch.Press.Rootkits.and.Bootkits.www.EBooksWorld.ir.pdf), es muy buen libro, ya que te enseñan tecnicas que han usados rootkits para evadir AV/EDRs, sobreescribir la UEFI y BIOS, almacenarse en el chipset de la BIOS, escalar de ring 3 a ring 0, etc
-
-### Usuarios que han contribuido
-<a href="https://github.com/ic4rta" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/ic4rta" width="60" height="60"/></a>
-<a href="https://github.com/droix3d" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/u/109915316?v=4" width="60" height="60"/></a>
-<a href="https://github.com/NotAndeer" target="_blank" rel="noreferrer"> <img src="https://avatars.githubusercontent.com/NotAndeer" width="60" height="60"/></a>
 
 ## Recursos adicionales
 
